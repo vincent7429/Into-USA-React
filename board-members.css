@@ -457,6 +457,30 @@
   .board-members-mobile-menu {
     padding: 16px;
   }
+  .board-members-container06 {
+    flex-direction: column;
+  }
+  .board-members-container07 {
+    width: 100%;
+  }
+  .board-members-container08 {
+    width: 100%;
+  }
+  .board-members-container09 {
+    width: 100%;
+  }
+  .board-members-container10 {
+    flex-direction: column;
+  }
+  .board-members-container11 {
+    width: 100%;
+  }
+  .board-members-container12 {
+    width: 100%;
+  }
+  .board-members-container13 {
+    width: 100%;
+  }
   .board-members-footer {
     padding: var(--dl-space-space-unit);
     flex-direction: column;
