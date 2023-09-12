@@ -38,9 +38,11 @@
   font-family: Montserrat;
   border-width: 0px;
   margin-right: var(--dl-space-space-twounits);
+  text-decoration: none;
 }
 .home-register {
   font-family: Montserrat;
+  text-decoration: none;
 }
 .home-burger-menu {
   display: none;
