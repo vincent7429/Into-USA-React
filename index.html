@@ -61,36 +61,34 @@
       <link href="./index.css" rel="stylesheet" />
 
       <div class="home-container">
-        <header data-role="Header" class="home-header">
-          <div class="home-container01">
-            <img
-              alt="logo"
-              src="public/screenshot%202023-09-10%20225526-1500h.png"
-              class="home-image"
-            />
+        <header data-thq="thq-navbar" class="home-navbar-interactive">
+          <img
+            alt="logo"
+            src="public/screenshot%202023-09-10%20225526-1500h.png"
+            class="home-image"
+          />
+          <div data-thq="thq-navbar-nav" class="home-desktop-menu">
+            <div class="home-buttons">
+              <button class="home-login button">Home</button>
+              <button class="home-register button">Board of Directors</button>
+            </div>
           </div>
-          <div class="home-btn-group">
-            <a href="index.html" class="home-navlink button">Home</a>
-            <a href="board-members.html" class="home-navlink1 button">
-              Board Members
-            </a>
-          </div>
-          <div data-role="BurgerMenu" class="home-burger-menu">
+          <div data-thq="thq-burger-menu" class="home-burger-menu">
             <svg viewBox="0 0 1024 1024" class="home-icon">
               <path
                 d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
               ></path>
             </svg>
           </div>
-          <div data-role="MobileMenu" class="home-mobile-menu">
-            <nav class="home-nav">
-              <div class="home-container02">
+          <div data-thq="thq-mobile-menu" class="home-mobile-menu">
+            <div class="home-nav">
+              <div class="home-top">
                 <img
                   alt="image"
                   src="https://presentation-website-assets.teleporthq.io/logos/logo.png"
-                  class="home-image1"
+                  class="home-logo"
                 />
-                <div data-role="CloseMobileMenu" class="home-close-mobile-menu">
+                <div data-thq="thq-close-menu" class="home-close-menu">
                   <svg viewBox="0 0 1024 1024" class="home-icon02">
                     <path
                       d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
@@ -98,20 +96,18 @@
                   </svg>
                 </div>
               </div>
-              <nav
-                class="navigation-links1-nav navigation-links1-root-class-name14"
-              >
-                <span class="navigation-links1-text"><span>About</span></span>
-                <span class="navigation-links1-text1">
-                  <span>Features</span>
-                </span>
-                <span class="navigation-links1-text2">
-                  <span>Pricing</span>
-                </span>
-                <span class="navigation-links1-text3"><span>Team</span></span>
-                <span class="navigation-links1-text4"><span>Blog</span></span>
+              <nav class="home-links">
+                <span class="home-text">About</span>
+                <span class="home-text01">Features</span>
+                <span class="home-text02">Pricing</span>
+                <span class="home-text03">Team</span>
+                <span class="home-text04">Blog</span>
               </nav>
-            </nav>
+              <div class="home-buttons1">
+                <button class="home-login1 button">Login</button>
+                <button class="button">Register</button>
+              </div>
+            </div>
             <div>
               <svg viewBox="0 0 950.8571428571428 1024" class="home-icon04">
                 <path
@@ -129,41 +125,41 @@
             </div>
           </div>
         </header>
-        <div class="home-container03">
-          <div class="home-container04">
-            <div class="home-container05">
-              <span class="home-text">Into Organization</span>
-              <span class="home-text01">
+        <div class="home-container01">
+          <div class="home-container02">
+            <div class="home-container03">
+              <span class="home-text05">Into Organization</span>
+              <span class="home-text06">
                 <span>Helping immigrant students succeed in school.</span>
                 <br />
               </span>
               <span></span>
-              <div class="home-container06">
+              <div class="home-container04">
                 <span>&nbsp;</span>
-                <a href="board-members.html" class="home-navlink2 button">
+                <a href="board-members.html" class="home-navlink button">
                   Our Board of Directors
                 </a>
               </div>
             </div>
           </div>
         </div>
-        <div class="home-container07">
-          <div class="home-container08">
-            <div class="home-container09">
-              <span class="home-text06">Our Mission Values!</span>
-              <div class="home-container10">
-                <div class="home-container11">
-                  <div class="home-container12">
-                    <span class="home-text07">Who are we?</span>
-                    <span class="home-text08">
+        <div class="home-container05">
+          <div class="home-container06">
+            <div class="home-container07">
+              <span class="home-text11">Our Mission Values!</span>
+              <div class="home-container08">
+                <div class="home-container09">
+                  <div class="home-container10">
+                    <span class="home-text12">Who are we?</span>
+                    <span class="home-text13">
                       We are a student-based program for helping new immigrant
                       students integrate INTO school.
                     </span>
                   </div>
                 </div>
-                <div class="home-container13">
-                  <span class="home-text09">What do we do?</span>
-                  <span class="home-text10">
+                <div class="home-container11">
+                  <span class="home-text14">What do we do?</span>
+                  <span class="home-text15">
                     <span>
                       - Provide student with academic and language support
                     </span>
@@ -188,14 +184,18 @@
           <img
             alt="logo"
             src="public/screenshot%202023-09-10%20225526-1500h.png"
-            class="home-image2"
+            class="home-image1"
           />
-          <span class="home-text18">
+          <span class="home-text23">
             THIS IS A TEST WEBSITE FOR INTO.USA. Not an actual prototype!!
           </span>
           <div class="home-icon-group1"></div>
         </footer>
       </div>
     </div>
+    <script
+      defer=""
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script>
   </body>
 </html>
