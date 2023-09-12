@@ -19,9 +19,13 @@
   justify-content: space-between;
   background-color: #121212;
 }
+.home-navlink {
+  display: contents;
+}
 .home-image {
   width: 3%;
   height: 3%;
+  text-decoration: none;
 }
 .home-desktop-menu {
   flex: 1;
@@ -187,7 +191,7 @@
   align-items: flex-start;
   justify-content: center;
 }
-.home-navlink {
+.home-navlink1 {
   margin: var(--dl-space-space-oneandhalfunits);
   padding: var(--dl-space-space-unit);
   font-family: Montserrat;

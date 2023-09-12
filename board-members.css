@@ -19,9 +19,13 @@
   justify-content: space-between;
   background-color: #121212;
 }
+.board-members-navlink {
+  display: contents;
+}
 .board-members-image {
   width: 3%;
   height: 3%;
+  text-decoration: none;
 }
 .board-members-desktop-menu {
   flex: 1;
